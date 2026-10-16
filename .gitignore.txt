@@ -1,0 +1,20 @@
+# Ignore SQLite databases and transaction journals
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Streamlit secrets and runtime configuration
+.streamlit/secrets.toml
+
+# Generated reports & temporary exports
+*.pdf
+*.csv
+*.xlsx
+
+# Python cache & virtual environments
+__pycache__/
+*.pyc
+venv/
+.env
